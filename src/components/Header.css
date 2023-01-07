@@ -1,0 +1,19 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding:1rem;
+    font-weight: 900;
+    font-size: x-large; 
+    align-items: center;
+}
+.NavMenu{
+    display: flex;
+
+}
+.NavMenu li{
+    padding: 0 1rem;
+}
+.NavMenu li a{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
