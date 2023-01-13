@@ -1,0 +1,15 @@
+.heroAnimate{
+    
+    width: 60%;
+    height: 20%;
+    float:right;
+    margin-right: 4;
+}
+.content {
+    padding: 3rem ;
+}
+.content h1{
+    font-size: 3.5rem;
+    
+}
+

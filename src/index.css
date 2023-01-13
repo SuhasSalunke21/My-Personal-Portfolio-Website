@@ -8,16 +8,30 @@
 body{
   background-color: black;
 }
-h1,h4,p,a{
+h1,h4,h2,a{
   color: white;
   text-decoration:none;
+  font-size: 3.5rem;
+}
+p{
+  color:rgb(64, 117, 161);
+  font-size: 1.8rem;
+  padding: 1rem 0 5rem;
+  font-weight: 400;
+}
+.decor{
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background: linear-gradient(270deg, rgb(19, 173, 199) 0%, rgb(148, 93, 214) 100%);
+  margin-left: 2rem;
 }
 ul{
   list-style-type: none;
 }
 .btn{
   padding: 12px 32px;
-  font-size: 1rem;
+  font-size: 1.3rem;
   background-color: orange;
   color:white;
   font-weight: 600;
