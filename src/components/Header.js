@@ -8,7 +8,7 @@ export default function header() {
         <ul className='NavMenu'>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/tech">Technologies</Link></li>
+          <li><Link to="/resume">Resume</Link></li>
           <li><Link to="">About</Link></li>
         </ul>
         

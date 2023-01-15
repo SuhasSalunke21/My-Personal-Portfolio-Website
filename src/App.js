@@ -3,9 +3,9 @@ import './index.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './routes/Home';
 import Projects from './routes/Projects';
-// import About from './routes/About';
-import Tech from './routes/Tech';
-// import BackgroundAnimation from './components/Background-Animate';
+import Resume from './routes/Resume';
+// import Tech from './routes/Tech';
+
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Route path="/" element={<Home />} />
       {/* <Route path="/about" element={<About />} /> */}
       <Route path="/projects" element={<Projects />} />
-      <Route path="/tech" element={<Tech />} />
+      <Route path="/resume" element={<Resume />} />
     </Routes>
     {/* <BackgroundAnimation /> */}
   </>
