@@ -4,6 +4,7 @@
   
   body {
     background: #111 !important;
+    
   }
 
   .card {
@@ -14,6 +15,7 @@
     max-width:1000px;
     margin :auto;
     display: grid;
+    
     
   }
   
@@ -28,7 +30,7 @@
     transition: all .4s ease;
   }
   .card-body{
-    padding: 3rem;
+    padding: 2.5rem;
   }
   
   .btn:hover, .btn:focus {
@@ -58,4 +60,5 @@
 
   .projects{
     display: flex;
+    padding-bottom: 4rem;
   }

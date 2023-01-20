@@ -11,7 +11,7 @@ export default function Resume() {
             <p>Alternative text - include a link <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a></p>
         </object>
         </div>
-        
+        <div className='decor'></div>
         <Footer />
     </div>
     

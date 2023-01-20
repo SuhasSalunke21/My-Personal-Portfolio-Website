@@ -1,17 +1,17 @@
 import "./Hero_project.css";
 import React from 'react'
-import projectImg from '../assests/project.png'
 
-export default function Hero_project() {
+
+export default function Hero_project(props) {
   return (
     <div className="heroPro">
     <div className="bck">
-      <img className="pro-Image" src={projectImg} alt=""/>
+      <img className="pro-Image" src={props.imgPath} alt=""/>
     </div>
       
       <div className="content">
-      <h1>Projects</h1>
-      <p>Here Are My Recent Works</p>
+      <h1>{props.name}</h1>
+      <p>{props.para}</p>
       </div>
       
       
