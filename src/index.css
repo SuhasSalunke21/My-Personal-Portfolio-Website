@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-*{
+*,title{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Space Grotesk', sans-serif;
+}
+title{
+  color: black;
 }
 body{
   background-color: black;
