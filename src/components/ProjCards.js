@@ -21,11 +21,11 @@ export default function ProjCards() {
       <div class="card" style={{ width: '29rem' }}>
           <img src={proj2} className="cardImg" alt="..." />
           <div className="card-body">
-              <h3 className="card-title">LeetDroid</h3>
-              <p>Created a app which keeps track of all your LeetCode activities, upcoming contests, and question lists.</p>
+              <h3 className="card-title">Employee Management System</h3>
+              <p>Built a OOP project in Cpp which keeps track of all Employee Details(CRUD Operations).</p>
               
-              <a href="https://play.google.com/store/apps/details?id=com.cdhiraj40.leetdroid" class="btn mr-2"><FaExternalLinkAlt size={20} style={{ color:"red"}}/> Visit Site</a>
-              <a href="https://github.com/mvpatil45/LeetDroid" class="btn "><AiFillGithub size={20} style={{ color:"red"}}/> Github</a>
+              <a href="https://onlinegdb.com/_1aWlan9Q" class="btn mr-2"><FaExternalLinkAlt size={20} style={{ color:"red"}}/> Visit Site</a>
+              <a href="https://github.com/mvpatil45" class="btn "><AiFillGithub size={20} style={{ color:"red"}}/> Github</a>
           </div>
       </div>
       
