@@ -11,9 +11,9 @@ export default function Skills() {
         <div className='coding'>
         <h1 className='heading'>Coding Platforms</h1>
             <p>
-            <a href="https://www.hackerrank.com/mvpatil4321"><SiHackerrank size={100} style={{ color:"white", margin:"3rem"}}/></a>
-            <a href="https://leetcode.com/its_manaspatil/"><SiLeetcode size={100} style={{ color:"white", margin:"3rem"}}/></a>
-            <a href="https://www.codechef.com/users/mvpatil"><SiCodechef size={100} style={{ color:"white", margin:"3rem"}}/></a>
+            <a href="https://www.hackerrank.com/suhas_22010524"><SiHackerrank size={100} style={{ color:"white", margin:"3rem"}}/></a>
+            <a href="https://leetcode.com/Suhas_Salunke/"><SiLeetcode size={100} style={{ color:"white", margin:"3rem"}}/></a>
+            <a href="https://www.codechef.com/users/suhas2116"><SiCodechef size={100} style={{ color:"white", margin:"3rem"}}/></a>
             
             </p>
         </div>

@@ -5,6 +5,7 @@
     font-weight: 900;
     font-size: x-large; 
     align-items: center;
+    color: red;
 }
 .NavMenu{
     display: flex;

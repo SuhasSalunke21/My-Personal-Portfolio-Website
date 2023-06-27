@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import pdf from '../assests/Manas Patil(Resume).pdf'
+import pdf from '../assests/Suhas Salunke(Resume).pdf'
 export default function Resume() {
   return (
     <div>

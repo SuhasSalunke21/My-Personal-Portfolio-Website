@@ -1,6 +1,6 @@
 import "./ProjCards.css"
 import React from 'react'
-import paintImg from "../assests/paintImg.png"
+import paintImg from "../assests/realproj2.png"
 import {AiFillGithub} from "react-icons/ai";
 import {FaExternalLinkAlt} from "react-icons/fa";
 import proj2 from "../assests/proj2.png"
@@ -11,10 +11,10 @@ export default function ProjCards() {
       <div class="card" style={{ width: '29rem' }}>
           <img src={paintImg} className="cardImg" alt="..." />
           <div className="card-body">
-              <h3 className="card-title">Ms Paint Clone</h3>
-              <p>Made a Paint Software with Adjustable Canvas size, Brush Size and Pick any Color Option.</p>
-              <a href="https://codepen.io/mvpatil45/pen/VwMVKEP" class="btn mr-2"><FaExternalLinkAlt size={20} style={{ color:"red"}}/> Visit Site</a>
-              <a href="https://github.com/mvpatil45/TODO-List" class="btn "><AiFillGithub size={20} style={{ color:"red"}}/> Github</a>
+              <h3 className="card-title">Real Estate Website</h3>
+              <p>We created a MERN responsive website which allows users to render the properties listing and upload properties on our platform. </p>
+              <a href="" class="btn mr-2"><FaExternalLinkAlt size={20} style={{ color:"red"}}/> Visit Site</a>
+              <a href="https://github.com/PankajShinde15/ProjectWork2.git" class="btn "><AiFillGithub size={20} style={{ color:"red"}}/> Github</a>
           </div>
           
       </div>
@@ -25,7 +25,7 @@ export default function ProjCards() {
               <p>Built a OOP project in Cpp which keeps track of all Employee Details(CRUD Operations).</p>
               
               <a href="https://onlinegdb.com/_1aWlan9Q" class="btn mr-2"><FaExternalLinkAlt size={20} style={{ color:"red"}}/> Visit Site</a>
-              <a href="https://github.com/mvpatil45" class="btn "><AiFillGithub size={20} style={{ color:"red"}}/> Github</a>
+              <a href="https://github.com/SuhasSalunke21/Project2" class="btn "><AiFillGithub size={20} style={{ color:"red"}}/> Github</a>
           </div>
       </div>
       
